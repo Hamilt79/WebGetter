@@ -5,7 +5,7 @@
         if (len == 2) {
         } else if (len == 3) {
         } else {
-            Console.WriteLine("Usage: <filename> <url> <filetosaveas> (optional)<timeout-milliseconds>");
+            Console.Error.WriteLine("Usage: <filename> <url> <filetosaveas> (optional)<timeout-milliseconds>");
             return 1;
         }
         string url = args[0];
